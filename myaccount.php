@@ -72,20 +72,7 @@
 				<div class="container">
 					
 					<div class="row pb-1 pt-2">
-						<div class="col-md-2">
-							<div class="heading heading-border heading-middle-border">
-								<h3 class="font-weight-bold text-3 pt-1">Main</h3>
-							</div>
-								<ul class="list list-icons">
-									<li><i class="far fa-envelope"></i> <a href="#" class="text-decoration-none text-color-dark ml-2">Inbox</a></li>
-									<li><i class="far fa-envelope"></i> <a href="#" class="text-decoration-none text-color-dark ml-2">Inbox</a></li>
-									<li><i class="far fa-envelope"></i> <a href="#" class="text-decoration-none text-color-dark ml-2">Inbox</a> <span class="badge badge-success badge-sm badge-pill float-sm-right text-uppercase px-2 py-1 mr-1">15</span></li>
-									<hr>
-									<li><i class="far fa-envelope"></i> <a href="#" class="text-decoration-none text-color-dark ml-2">Inbox</a></li>
-									<li><i class="far fa-envelope"></i> <a href="#" class="text-decoration-none text-color-dark ml-2">Inbox</a></li>
-								</ul>
-						</div>
-						<div class="col-md-10">
+						<div class="col-md-12">
 
 							<div class="heading heading-border heading-middle-border">
 								<h3 class="text-4"><strong class="font-weight-bold text-1 px-3">My Account</strong></h3>
@@ -96,36 +83,100 @@
 								<div class="col-lg-12">
                                     <div class="col">
                                     <div class="row">
-                                        <div class="col-lg-4">
+                                        <div class="col-lg-3">
                                             <div class="tabs tabs-vertical tabs-left tabs-navigation">
                                                 <ul class="nav nav-tabs col-sm-3">
-                                                    <li class="nav-item">
-                                                        <a class="nav-link" href="#tabsNavigation1" data-toggle="tab"><i class="fas fa-users"></i> Customer Support</a>
-                                                    </li>
-                                                    <li class="nav-item">
-                                                        <a class="nav-link" href="#tabsNavigation2" data-toggle="tab"><i class="fas fa-file"></i> HTML5 / CSS3 / JS</a>
-                                                    </li>
-                                                    <li class="nav-item">
-                                                        <a class="nav-link" href="#tabsNavigation3" data-toggle="tab"><i class="fab fa-google-plus-g"></i> 500+ Google Fonts</a>
-                                                    </li>
-                                                    <li class="nav-item">
-                                                        <a class="nav-link" href="#tabsNavigation4" data-toggle="tab"><i class="fas fa-adjust"></i> Colors</a>
-                                                    </li>
-                                                    <li class="nav-item">
-                                                        <a class="nav-link" href="#tabsNavigation5" data-toggle="tab"><i class="fas fa-film"></i> Sliders</a>
-                                                    </li>
                                                     <li class="nav-item active">
-                                                        <a class="nav-link active" href="#tabsNavigation6" data-toggle="tab"><i class="fas fa-user"></i> Icons</a>
+                                                        <a class="nav-link active" href="#tabsNavigation1" data-toggle="tab"><i class="fas fa-user"></i> Basic Information</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#tabsNavigation2" data-toggle="tab"><i class="fas fa-file"></i> Education &amp; Carrer</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#tabsNavigation3" data-toggle="tab"><i class="fab fa-google-plus-g"></i> Phyiscal</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#tabsNavigation4" data-toggle="tab"><i class="fas fa-adjust"></i> Family</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#tabsNavigation5" data-toggle="tab"><i class="fas fa-film"></i> Hobbies</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#tabsNavigation6" data-toggle="tab"><i class="fas fa-user"></i> Partner Information</a>
                                                     </li>
                                                 </ul>
                                             </div>
                                         </div>
-                                        <div class="col-lg-8">
-                                            <div class="tab-pane tab-pane-navigation" id="tabsNavigation1">
-                                                <h4>Customer Support</h4>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pellentesque neque eget diam posuere porta. Quisque ut nulla at nunc <a href="#">vehicula</a> lacinia.</p>
-                                                <img class="float-right" width="200" src="img/device.png" alt="">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pellentesque neque eget diam posuere porta. Quisque ut nulla at nunc <a href="#">vehicula</a> lacinia. Proin adipiscing porta tellus, ut feugiat nibh adipiscing sit amet. In eu justo a felis faucibus ornare vel id metus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In eu libero ligula. Fusce eget metus lorem, ac viverra leo. Nullam convallis, arcu vel pellentesque sodales, nisi est varius diam, ac ultrices sem ante quis sem. Proin ultricies volutpat sapien, nec scelerisque ligula mollis lobortis.</p>
+                                        <div class="col-lg-9">
+                                            <div class="tab-pane tab-pane-navigation active" id="tabsNavigation1">
+                                                <h5>Basic Information</h5>
+                                                <div class="card-body">
+                                                <form class="form-horizontal form-bordered" method="get">
+                                                    <div class="form-group row">
+                                                        <label class="col-lg-3 control-label text-lg-right pt-2" for="inputDefault">Default</label>
+                                                        <div class="col-lg-9">
+                                                            <input type="text" class="form-control" id="inputDefault">
+                                                        </div>
+                                                    </div>
+                                
+                                                    <div class="form-group row">
+                                                        <label class="col-lg-3 control-label text-lg-right pt-2" for="inputDisabled">Disabled</label>
+                                                        <div class="col-lg-9">
+                                                            <input class="form-control" id="inputDisabled" type="text" placeholder="Disabled input here..." disabled="">
+                                                        </div>
+                                                    </div>
+                                
+                                                    <div class="form-group row">
+                                                        <label class="col-lg-3 control-label text-lg-right pt-2" for="inputReadOnly">Read-Only Input</label>
+                                                        <div class="col-lg-9">
+                                                            <input type="text" value="Read-Only Input" id="inputReadOnly" class="form-control" readonly="readonly">
+                                                        </div>
+                                                    </div>
+                                
+                                                    <div class="form-group row">
+                                                        <label class="col-lg-3 control-label text-lg-right pt-2" for="inputHelpText">Help text</label>
+                                                        <div class="col-lg-9">
+                                                            <input type="text" class="form-control" id="inputHelpText">
+                                                            <span class="help-block">A block of help text that breaks onto a new line and may extend beyond one line.</span>
+                                                        </div>
+                                                    </div>
+                                
+                                                    <div class="form-group row">
+                                                        <label class="col-lg-3 control-label text-lg-right pt-2" for="inputRounded">Rounded Input</label>
+                                                        <div class="col-lg-9">
+                                                            <input type="text" class="form-control input-rounded" id="inputRounded">
+                                                        </div>
+                                                    </div>
+                                
+                                                    <div class="form-group row">
+                                                        <label class="col-lg-3 control-label text-lg-right pt-2" for="inputFocus">Input focus</label>
+                                                        <div class="col-lg-9">
+                                                            <input class="form-control" id="inputFocus" type="text" value="This is focused...">
+                                                        </div>
+                                                    </div>
+                                
+                                                    <div class="form-group row">
+                                                        <label class="col-lg-3 control-label text-lg-right pt-2" for="inputPlaceholder">Placeholder</label>
+                                                        <div class="col-lg-9">
+                                                            <input type="text" class="form-control" placeholder="placeholder" id="inputPlaceholder">
+                                                        </div>
+                                                    </div>
+                                
+                                                    <div class="form-group row">
+                                                        <label class="col-lg-3 control-label text-lg-right pt-2" for="inputPassword">Password</label>
+                                                        <div class="col-lg-9">
+                                                            <input type="password" class="form-control" placeholder="" id="inputPassword">
+                                                        </div>
+                                                    </div>
+                                
+                                                    <div class="form-group row">
+                                                        <label class="col-lg-3 control-label text-lg-right pt-1">Static control</label>
+                                                        <div class="col-lg-9">
+                                                            <p class="form-control-static">email@example.com</p>
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                            </div>
                                             </div>
                                             <div class="tab-pane tab-pane-navigation" id="tabsNavigation2">
                                                 <h4>HTML5 / CSS3 / JS</h4>
@@ -148,7 +199,7 @@
                                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pellentesque neque eget diam posuere porta. Quisque ut nulla at nunc <a href="#">vehicula</a> lacinia.</p>
                                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pellentesque neque eget diam posuere porta. Quisque ut nulla at nunc <a href="#">vehicula</a> lacinia. Proin adipiscing porta tellus, ut feugiat nibh adipiscing sit amet. In eu justo a felis faucibus ornare vel id metus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In eu libero ligula. Fusce eget metus lorem, ac viverra leo. Nullam convallis, arcu vel pellentesque sodales, nisi est varius diam, ac ultrices sem ante quis sem. Proin ultricies volutpat sapien, nec scelerisque ligula mollis lobortis.</p>
                                             </div>
-                                            <div class="tab-pane tab-pane-navigation active" id="tabsNavigation6">
+                                            <div class="tab-pane tab-pane-navigation" id="tabsNavigation6">
                                                 <h4>Icons</h4>
                                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pellentesque neque eget diam posuere porta. Quisque ut nulla at nunc <a href="#">vehicula</a> lacinia.</p>
                                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pellentesque neque eget diam posuere porta. Quisque ut nulla at nunc <a href="#">vehicula</a> lacinia. Proin adipiscing porta tellus, ut feugiat nibh adipiscing sit amet. In eu justo a felis faucibus ornare vel id metus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In eu libero ligula. Fusce eget metus lorem, ac viverra leo. Nullam convallis, arcu vel pellentesque sodales, nisi est varius diam, ac ultrices sem ante quis sem. Proin ultricies volutpat sapien, nec scelerisque ligula mollis lobortis.</p>
